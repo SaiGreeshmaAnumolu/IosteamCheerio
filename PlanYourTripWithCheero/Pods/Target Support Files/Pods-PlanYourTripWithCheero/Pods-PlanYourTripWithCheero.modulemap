@@ -1,0 +1,6 @@
+framework module Pods_PlanYourTripWithCheero {
+  umbrella header "Pods-PlanYourTripWithCheero-umbrella.h"
+
+  export *
+  module * { export * }
+}

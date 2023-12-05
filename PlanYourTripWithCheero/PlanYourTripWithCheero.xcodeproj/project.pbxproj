@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		096FD6BD02BE5C770F96FB55 /* Pods_PlanYourTripWithCheero.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A48DFC4EE7A8FA73D8ED0523 /* Pods_PlanYourTripWithCheero.framework */; };
+		741C2AE52B0B36600054F2BE /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741C2AE42B0B36600054F2BE /* MapViewController.swift */; };
+		741C2AE92B0B3C140054F2BE /* TypesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741C2AE82B0B3C140054F2BE /* TypesViewController.swift */; };
+		742C59212B1461E5007098E5 /* MyUpcommingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742C59202B1461E5007098E5 /* MyUpcommingViewController.swift */; };
+		742C59232B14625E007098E5 /* UpcommingTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742C59222B14625E007098E5 /* UpcommingTVC.swift */; };
+		743C65A52AFE392300A07389 /* ItineraryDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743C65A42AFE392300A07389 /* ItineraryDetailsViewController.swift */; };
+		743C65A72AFE3B0200A07389 /* ItineraryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743C65A62AFE3B0200A07389 /* ItineraryModel.swift */; };
+		743C65A92AFE430500A07389 /* ItineraryTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743C65A82AFE430500A07389 /* ItineraryTVC.swift */; };
+		743F889E2AF524FB0085AD55 /* HomeCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743F889C2AF524FB0085AD55 /* HomeCVC.swift */; };
+		743F88A12AF527210085AD55 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743F88A02AF527210085AD55 /* HomeViewController.swift */; };
+		743F88A52AF5276E0085AD55 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743F88A42AF5276E0085AD55 /* ProfileViewController.swift */; };
+		743F88AD2AF527B10085AD55 /* ChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743F88AC2AF527B10085AD55 /* ChangePasswordViewController.swift */; };
+		7469BE7D2AF2588E001F11DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7469BE7C2AF2588E001F11DD /* AppDelegate.swift */; };
+		7469BE7F2AF2588E001F11DD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7469BE7E2AF2588E001F11DD /* SceneDelegate.swift */; };
+		7469BE812AF2588E001F11DD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7469BE802AF2588E001F11DD /* LoginViewController.swift */; };
+		7469BE842AF2588E001F11DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7469BE822AF2588E001F11DD /* Main.storyboard */; };
+		7469BE862AF2588F001F11DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7469BE852AF2588F001F11DD /* Assets.xcassets */; };
+		7469BE892AF2588F001F11DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7469BE872AF2588F001F11DD /* LaunchScreen.storyboard */; };
+		7469BE912AF26D9F001F11DD /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7469BE902AF26D9E001F11DD /* SplashViewController.swift */; };
+		7469BE932AF26DD3001F11DD /* ForgotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7469BE922AF26DD3001F11DD /* ForgotViewController.swift */; };
+		7469BE952AF26DDD001F11DD /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7469BE942AF26DDD001F11DD /* RegisterViewController.swift */; };
+		747073B02B07200B001E7893 /* HistoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747073AF2B07200B001E7893 /* HistoryModel.swift */; };
+		748E644C2AF908970091CA77 /* ItinerariesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748E644B2AF908970091CA77 /* ItinerariesViewController.swift */; };
+		748E644E2AF909250091CA77 /* MyHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748E644D2AF909250091CA77 /* MyHistoryViewController.swift */; };
+		74B07F4C2B19A2EB006E2DF1 /* AddItineraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B07F4B2B19A2EB006E2DF1 /* AddItineraryViewController.swift */; };
+		74B07F4E2B19AB55006E2DF1 /* MyItinerariesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B07F4D2B19AB55006E2DF1 /* MyItinerariesViewController.swift */; };
+		74B57AF82B1D086400F192D6 /* Animation.json in Resources */ = {isa = PBXBuildFile; fileRef = 74B57AF72B1D086400F192D6 /* Animation.json */; };
+		74D93DA92B06672800551922 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74D93DA82B06672800551922 /* GoogleService-Info.plist */; };
+		74D93DAB2B06974300551922 /* HistoryTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D93DAA2B06974300551922 /* HistoryTVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0FA9FF128E184423BCF37A12 /* Pods-PlanYourTripWithCheero.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlanYourTripWithCheero.debug.xcconfig"; path = "Target Support Files/Pods-PlanYourTripWithCheero/Pods-PlanYourTripWithCheero.debug.xcconfig"; sourceTree = "<group>"; };
+		741C2AE42B0B36600054F2BE /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		741C2AE82B0B3C140054F2BE /* TypesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypesViewController.swift; sourceTree = "<group>"; };
+		742C59202B1461E5007098E5 /* MyUpcommingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyUpcommingViewController.swift; sourceTree = "<group>"; };
+		742C59222B14625E007098E5 /* UpcommingTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcommingTVC.swift; sourceTree = "<group>"; };
+		743C65A42AFE392300A07389 /* ItineraryDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItineraryDetailsViewController.swift; sourceTree = "<group>"; };
+		743C65A62AFE3B0200A07389 /* ItineraryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItineraryModel.swift; sourceTree = "<group>"; };
+		743C65A82AFE430500A07389 /* ItineraryTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItineraryTVC.swift; sourceTree = "<group>"; };
+		743F889C2AF524FB0085AD55 /* HomeCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCVC.swift; sourceTree = "<group>"; };
+		743F88A02AF527210085AD55 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		743F88A42AF5276E0085AD55 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		743F88AC2AF527B10085AD55 /* ChangePasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordViewController.swift; sourceTree = "<group>"; };
+		7469BE792AF2588E001F11DD /* PlanYourTripWithCheero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlanYourTripWithCheero.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7469BE7C2AF2588E001F11DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7469BE7E2AF2588E001F11DD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7469BE802AF2588E001F11DD /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		7469BE832AF2588E001F11DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7469BE852AF2588F001F11DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7469BE882AF2588F001F11DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7469BE8A2AF2588F001F11DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7469BE902AF26D9E001F11DD /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		7469BE922AF26DD3001F11DD /* ForgotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotViewController.swift; sourceTree = "<group>"; };
+		7469BE942AF26DDD001F11DD /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		747073AF2B07200B001E7893 /* HistoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryModel.swift; sourceTree = "<group>"; };
+		748E644B2AF908970091CA77 /* ItinerariesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItinerariesViewController.swift; sourceTree = "<group>"; };
+		748E644D2AF909250091CA77 /* MyHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHistoryViewController.swift; sourceTree = "<group>"; };
+		74B07F4B2B19A2EB006E2DF1 /* AddItineraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItineraryViewController.swift; sourceTree = "<group>"; };
+		74B07F4D2B19AB55006E2DF1 /* MyItinerariesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyItinerariesViewController.swift; sourceTree = "<group>"; };
+		74B57AF72B1D086400F192D6 /* Animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Animation.json; sourceTree = "<group>"; };
+		74D93DA82B06672800551922 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		74D93DAA2B06974300551922 /* HistoryTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTVC.swift; sourceTree = "<group>"; };
+		A48DFC4EE7A8FA73D8ED0523 /* Pods_PlanYourTripWithCheero.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlanYourTripWithCheero.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C60B8C1641358867EBAD5B60 /* Pods-PlanYourTripWithCheero.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlanYourTripWithCheero.release.xcconfig"; path = "Target Support Files/Pods-PlanYourTripWithCheero/Pods-PlanYourTripWithCheero.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7469BE762AF2588E001F11DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				096FD6BD02BE5C770F96FB55 /* Pods_PlanYourTripWithCheero.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		049CECDFAB496E864147405A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0FA9FF128E184423BCF37A12 /* Pods-PlanYourTripWithCheero.debug.xcconfig */,
+				C60B8C1641358867EBAD5B60 /* Pods-PlanYourTripWithCheero.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7469BE702AF2588E001F11DD = {
+			isa = PBXGroup;
+			children = (
+				7469BE7B2AF2588E001F11DD /* PlanYourTripWithCheero */,
+				7469BE7A2AF2588E001F11DD /* Products */,
+				049CECDFAB496E864147405A /* Pods */,
+				E3418BC2A2427A27F81012BF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7469BE7A2AF2588E001F11DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7469BE792AF2588E001F11DD /* PlanYourTripWithCheero.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7469BE7B2AF2588E001F11DD /* PlanYourTripWithCheero */ = {
+			isa = PBXGroup;
+			children = (
+				7469BE7C2AF2588E001F11DD /* AppDelegate.swift */,
+				7469BE7E2AF2588E001F11DD /* SceneDelegate.swift */,
+				7469BE902AF26D9E001F11DD /* SplashViewController.swift */,
+				7469BE802AF2588E001F11DD /* LoginViewController.swift */,
+				7469BE922AF26DD3001F11DD /* ForgotViewController.swift */,
+				7469BE942AF26DDD001F11DD /* RegisterViewController.swift */,
+				743F88A02AF527210085AD55 /* HomeViewController.swift */,
+				743F889C2AF524FB0085AD55 /* HomeCVC.swift */,
+				748E644B2AF908970091CA77 /* ItinerariesViewController.swift */,
+				743C65A82AFE430500A07389 /* ItineraryTVC.swift */,
+				74B07F4D2B19AB55006E2DF1 /* MyItinerariesViewController.swift */,
+				74B07F4B2B19A2EB006E2DF1 /* AddItineraryViewController.swift */,
+				743C65A42AFE392300A07389 /* ItineraryDetailsViewController.swift */,
+				741C2AE82B0B3C140054F2BE /* TypesViewController.swift */,
+				741C2AE42B0B36600054F2BE /* MapViewController.swift */,
+				742C59202B1461E5007098E5 /* MyUpcommingViewController.swift */,
+				742C59222B14625E007098E5 /* UpcommingTVC.swift */,
+				748E644D2AF909250091CA77 /* MyHistoryViewController.swift */,
+				74D93DAA2B06974300551922 /* HistoryTVC.swift */,
+				743F88A42AF5276E0085AD55 /* ProfileViewController.swift */,
+				743F88AC2AF527B10085AD55 /* ChangePasswordViewController.swift */,
+				7469BE822AF2588E001F11DD /* Main.storyboard */,
+				7469BE852AF2588F001F11DD /* Assets.xcassets */,
+				7469BE872AF2588F001F11DD /* LaunchScreen.storyboard */,
+				7469BE8A2AF2588F001F11DD /* Info.plist */,
+				74D93DA82B06672800551922 /* GoogleService-Info.plist */,
+				74B57AF72B1D086400F192D6 /* Animation.json */,
+				743C65A62AFE3B0200A07389 /* ItineraryModel.swift */,
+				747073AF2B07200B001E7893 /* HistoryModel.swift */,
+			);
+			path = PlanYourTripWithCheero;
+			sourceTree = "<group>";
+		};
+		E3418BC2A2427A27F81012BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A48DFC4EE7A8FA73D8ED0523 /* Pods_PlanYourTripWithCheero.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7469BE782AF2588E001F11DD /* PlanYourTripWithCheero */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7469BE8D2AF2588F001F11DD /* Build configuration list for PBXNativeTarget "PlanYourTripWithCheero" */;
+			buildPhases = (
+				59071FD65EAB25B0A678A063 /* [CP] Check Pods Manifest.lock */,
+				7469BE752AF2588E001F11DD /* Sources */,
+				7469BE762AF2588E001F11DD /* Frameworks */,
+				7469BE772AF2588E001F11DD /* Resources */,
+				3AE4E6AA3E0EEF538C273D03 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlanYourTripWithCheero;
+			productName = VirtualArtGalleryApplication;
+			productReference = 7469BE792AF2588E001F11DD /* PlanYourTripWithCheero.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7469BE712AF2588E001F11DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					7469BE782AF2588E001F11DD = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 7469BE742AF2588E001F11DD /* Build configuration list for PBXProject "PlanYourTripWithCheero" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7469BE702AF2588E001F11DD;
+			productRefGroup = 7469BE7A2AF2588E001F11DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7469BE782AF2588E001F11DD /* PlanYourTripWithCheero */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7469BE772AF2588E001F11DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7469BE892AF2588F001F11DD /* LaunchScreen.storyboard in Resources */,
+				74B57AF82B1D086400F192D6 /* Animation.json in Resources */,
+				74D93DA92B06672800551922 /* GoogleService-Info.plist in Resources */,
+				7469BE862AF2588F001F11DD /* Assets.xcassets in Resources */,
+				7469BE842AF2588E001F11DD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3AE4E6AA3E0EEF538C273D03 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PlanYourTripWithCheero/Pods-PlanYourTripWithCheero-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PlanYourTripWithCheero/Pods-PlanYourTripWithCheero-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PlanYourTripWithCheero/Pods-PlanYourTripWithCheero-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59071FD65EAB25B0A678A063 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PlanYourTripWithCheero-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7469BE752AF2588E001F11DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				743C65A92AFE430500A07389 /* ItineraryTVC.swift in Sources */,
+				74B07F4E2B19AB55006E2DF1 /* MyItinerariesViewController.swift in Sources */,
+				7469BE812AF2588E001F11DD /* LoginViewController.swift in Sources */,
+				7469BE7D2AF2588E001F11DD /* AppDelegate.swift in Sources */,
+				743F88AD2AF527B10085AD55 /* ChangePasswordViewController.swift in Sources */,
+				7469BE7F2AF2588E001F11DD /* SceneDelegate.swift in Sources */,
+				7469BE952AF26DDD001F11DD /* RegisterViewController.swift in Sources */,
+				7469BE932AF26DD3001F11DD /* ForgotViewController.swift in Sources */,
+				743F88A52AF5276E0085AD55 /* ProfileViewController.swift in Sources */,
+				748E644C2AF908970091CA77 /* ItinerariesViewController.swift in Sources */,
+				743C65A52AFE392300A07389 /* ItineraryDetailsViewController.swift in Sources */,
+				74B07F4C2B19A2EB006E2DF1 /* AddItineraryViewController.swift in Sources */,
+				74D93DAB2B06974300551922 /* HistoryTVC.swift in Sources */,
+				742C59212B1461E5007098E5 /* MyUpcommingViewController.swift in Sources */,
+				741C2AE92B0B3C140054F2BE /* TypesViewController.swift in Sources */,
+				742C59232B14625E007098E5 /* UpcommingTVC.swift in Sources */,
+				743F88A12AF527210085AD55 /* HomeViewController.swift in Sources */,
+				747073B02B07200B001E7893 /* HistoryModel.swift in Sources */,
+				741C2AE52B0B36600054F2BE /* MapViewController.swift in Sources */,
+				743F889E2AF524FB0085AD55 /* HomeCVC.swift in Sources */,
+				748E644E2AF909250091CA77 /* MyHistoryViewController.swift in Sources */,
+				7469BE912AF26D9F001F11DD /* SplashViewController.swift in Sources */,
+				743C65A72AFE3B0200A07389 /* ItineraryModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7469BE822AF2588E001F11DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7469BE832AF2588E001F11DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7469BE872AF2588F001F11DD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7469BE882AF2588F001F11DD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7469BE8B2AF2588F001F11DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7469BE8C2AF2588F001F11DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7469BE8E2AF2588F001F11DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FA9FF128E184423BCF37A12 /* Pods-PlanYourTripWithCheero.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5B24R57SGN;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PlanYourTripWithCheero/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.nwmissouri.fall23.cheero;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7469BE8F2AF2588F001F11DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C60B8C1641358867EBAD5B60 /* Pods-PlanYourTripWithCheero.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5B24R57SGN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PlanYourTripWithCheero/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.nwmissouri.fall23.cheero;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7469BE742AF2588E001F11DD /* Build configuration list for PBXProject "PlanYourTripWithCheero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7469BE8B2AF2588F001F11DD /* Debug */,
+				7469BE8C2AF2588F001F11DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7469BE8D2AF2588F001F11DD /* Build configuration list for PBXNativeTarget "PlanYourTripWithCheero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7469BE8E2AF2588F001F11DD /* Debug */,
+				7469BE8F2AF2588F001F11DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7469BE712AF2588E001F11DD /* Project object */;
+}
